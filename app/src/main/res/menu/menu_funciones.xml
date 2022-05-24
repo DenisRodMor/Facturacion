@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.realm.MainActivity">
+
+    <item
+        android:id="@+id/menu_editarClientefuncion"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="editar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_agregarfactfuncion"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="agregar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_verfacturasfuncion"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="ver facturas"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_eliminarClientefuncion"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="eliminar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_retrocederfuncion"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Regresar"
+        app:showAsAction="always" />
+
+</menu>
